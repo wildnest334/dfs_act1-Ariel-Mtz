@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Steam Clone Escolar</title>
+    <link rel="stylesheet" href="miactividad1.css">
+</head>
+<body>
+
+<!-- NAV SUPERIOR -->
+<nav class="top-nav">
+    <a href="https://store.steampowered.com" target="_blank"><span class="logo">STEAM</span></a>
+    <div class="menu">
+        <span>STORE</span>
+        <span>LIBRARY</span>    
+        <span>COMMUNITY</span>
+    </div>
+    
+    <a href="https://store.steampowered.com/about/" target="_blank"><button class="install">Install Steam</button></a>
+</nav>
+
+<!-- NAV SECUNDARIO -->
+<nav class="sub-nav">
+    <span>Browse </span>
+    <span>Categories </span>
+    <span>Specials </span>
+    <input type="text" placeholder="Search the store">
+</nav>
+
+
+
+<!-- CONTENIDO PRINCIPAL -->
+<main class="content">
+    
+
+    <!-- IMAGEN GRANDE -->
+    <div class="featured">
+        <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" target="_blank"><img src="imagenes/capsule_616x353.jpg" alt="Juego destacado"></a>
+    </div>
+
+    <!-- PANEL DERECHO -->
+    <aside class="info">
+        <h2>Elden Ring</h2>
+
+        <div class="mini-imgs">
+    <img src="imagenes/eldenalt1.jpg" alt="Imagen 1">
+    <img src="imagenes/eldenatl2.jpg" alt="Imagen 2">
+    <img src="imagenes/eldenalt3.jpg" alt="Imagen 3">
+    <img src="imagenes/eldenalt4.jpg" alt="Imagen 4">
+  <baseline>
+        <p1>EL NUEVO RPG DE ACCIÓN DE FANTASÍA. Levántate, tiznado, y déjate guiar por la gracia para esgrimir el poder del Anillo de Elden y convertirte en un Señor de Elden en las Tierras Intermedias.</p1>  <br><br><br>
+
+        <p2>RESEÑAS RECIENTES: MUY POSITIVAS <p7>(7,415)</p7></p2><br><br>
+        <p3>FECHA DE LANZAMIENTO: 24 FEBRERO 2022</p3><br><br>
+        <p4>DESARROLLADOR:      <a href="https://store.steampowered.com/curator/45188208" target="_blank"><p8>Fromsoftware, Inc</p8></a></p4>     <br><br>
+
+</div>
+
+        <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" target="_blank">
+
+        <button class="play">Mex$ 979.00</button></a>
+    </aside>
+
+</main>
+<!-- OTROS JUEGOS -->
+<section class="other-games">
+
+    <div class="game-card">
+        <a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" target="_blank">
+        <img src="imagenes/cyberpunl2077.jpg" alt="Juego 1"></a>
+        <h3>Cyberpunk 2077</h3>
+        <a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" target="_blank">
+        <button class="play">Mex$ 999.00</button></a>
+    </div>
+
+    <div class="game-card">
+        <a href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/" target="_blank">
+        <img src="imagenes/reddede.jpg" alt="Juego 2"></a>
+        <h3>Red Dead Redemption 2</h3>
+        <a href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/" target="_blank">
+        <button class="play">Mex$ 1,199.00</button></a>
+    </div>
+
+    <div class="game-card">
+        <a href="https://store.steampowered.com/app/374320/DARK_SOULS_III/" target="_blank"><img src="imagenes/souls.jpg" alt="Juego 3"></a>
+        <h3>Dark Souls III</h3>
+        <a href="https://store.steampowered.com/app/374320/DARK_SOULS_III/" target="_blank">
+        <button class="play">Mex$ 819.00</button></a>
+    </div>
+
+</section>
+
+</body>
+</html>
